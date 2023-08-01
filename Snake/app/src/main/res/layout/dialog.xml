@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center_vertical"
+
+    >
+    <ImageButton
+        android:id="@+id/game_start"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_marginStart="50dp"
+        android:background="@drawable/start"
+        android:layout_gravity="center_vertical"
+        />
+    <ImageButton
+        android:id="@+id/game_restart"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_marginStart="40dp"
+        android:background="@drawable/restart"
+        android:layout_gravity="center_vertical"
+        />
+    <ImageButton
+        android:id="@+id/game_over"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_marginStart="40dp"
+        android:background="@drawable/stop"
+        android:layout_gravity="center_vertical"
+        />
+</LinearLayout>

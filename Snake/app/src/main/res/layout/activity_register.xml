@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".registerActivity"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/register_username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:hint="Please input username:"
+        android:textSize="25dp"
+        android:drawableLeft="@android:drawable/ic_menu_myplaces"
+        android:layout_marginHorizontal="10dp"
+        android:backgroundTint="#D81B60"
+        android:padding="10dp"/>
+    <EditText
+        android:id="@+id/register_password1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginHorizontal="10dp"
+        android:hint="Please input password:"
+        android:textSize="25dp"
+        android:drawableLeft="@android:drawable/ic_lock_idle_lock"
+        android:backgroundTint="#D81B60"
+        android:padding="10dp"/>
+    <EditText
+        android:id="@+id/register_password2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="10dp"
+        android:layout_marginTop="10dp"
+        android:hint="Please input password:"
+        android:textSize="25dp"
+        android:drawableLeft="@android:drawable/ic_lock_idle_lock"
+        android:backgroundTint="#D81B60"
+        android:padding="10dp"/>
+
+    <Button
+        android:id="@+id/sure"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="confirm"
+        android:textSize="25sp"
+        android:background="#6495ED"
+        android:layout_marginHorizontal="10dp"
+        android:layout_gravity="center"/>
+    <Button
+        android:id="@+id/cancel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="cancel"
+        android:textSize="25sp"
+        android:background="#FF69B4"
+        android:layout_marginTop="10dp"
+        android:layout_marginHorizontal="10dp"
+        android:layout_gravity="center"/>
+
+</LinearLayout>

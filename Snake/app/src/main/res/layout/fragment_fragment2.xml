@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/settingback"
+    tools:context=".Fragment2">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="game levels"
+        android:textSize="40sp"
+        android:layout_marginTop="80dp"
+        android:layout_marginStart="40dp"/>
+    <RadioGroup
+        android:id="@+id/setmodel_rg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_marginStart="40dp"
+        android:orientation="vertical"
+        >
+        <RadioButton
+            android:id="@+id/setmodel_rbt1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="easy"
+            android:textSize="30sp"
+            />
+        <RadioButton
+            android:id="@+id/setmodel_rbt2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="normal"
+            android:textSize="30sp"
+            android:layout_marginTop="20dp"/>
+        <RadioButton
+            android:id="@+id/setmodel_rbt3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="hard"
+            android:textSize="30sp"
+            android:layout_marginTop="20dp"/>
+    </RadioGroup>
+
+
+    <Button
+        android:id="@+id/setting_sure2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="10dp"
+        android:background="@drawable/button_circle_shape2"
+        android:layout_marginTop="75dp"
+        android:text="confirm"
+        android:textSize="20sp"
+        />
+
+</LinearLayout>
